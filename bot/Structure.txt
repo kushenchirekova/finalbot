@@ -1,0 +1,65 @@
+users:
+	id(varchar)
+	name(varchar)
+	age(varchar)
+	sex(varchar)
+	budget(int)
+	rating(int)
+	reg_stage(int)
+	pair_id (varchar)
+	lat (varchar)
+	lon (varchar)
+
+user reg stages:
+(0 - 3) - user registration
+0 - set id
+1 - input name
+2 - input age
+3 - input sex
+
+******************************
+*4 - complete / nothing to do*
+******************************
+estabs:
+	id(varchar)
+	holder_id(varchar)
+	name(varchar)
+	avcheck (varchar)
+	address (varchar)
+	category (varchar)
+	photo_id (varcahr)
+	lat (varchar)
+	lon (varchar)
+
+(5 - 7) - establishment registration
+5 - set id, holder_id
+6 - input name
+7 - input avcheck
+8 - input address
+9 - input category
+10 - input photo_id
+11 - input location
+
+Choosing category of establishment
+12 - input category
+13 - input budget
+
+
+Additional modes for couchfurfing
+15 - to be couchsurfer
+16 - find couchsurfer
+
+17 - dialog with pair
+
+
+19 - input user location
+20 - neighbour mode
+
+
+
+
+
+
+
+
+
